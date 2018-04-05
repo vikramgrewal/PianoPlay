@@ -101,13 +101,12 @@
 		F77358B720746F8F0092A448 /* PianoPlay */ = {
 			isa = PBXGroup;
 			children = (
+				F7A4386C2076D3B900CC464A /* Controllers */,
+				F7A4386B2076D3A400CC464A /* Storyboards */,
 				F7EFEDD02076CAAE0034716C /* Models */,
 				F7EFEDCD2076CA150034716C /* MusicFiles */,
 				F7EFED812076C6DB0034716C /* Assets.xcassets */,
 				F77358B820746F8F0092A448 /* AppDelegate.swift */,
-				F77358BA20746F8F0092A448 /* ViewController.swift */,
-				F77358BC20746F8F0092A448 /* Main.storyboard */,
-				F77358C120746F8F0092A448 /* LaunchScreen.storyboard */,
 				F77358C420746F8F0092A448 /* Info.plist */,
 			);
 			path = PianoPlay;
@@ -129,6 +128,23 @@
 				F77358DA20746F8F0092A448 /* Info.plist */,
 			);
 			path = PianoPlayUITests;
+			sourceTree = "<group>";
+		};
+		F7A4386B2076D3A400CC464A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F77358BC20746F8F0092A448 /* Main.storyboard */,
+				F77358C120746F8F0092A448 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F7A4386C2076D3B900CC464A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F77358BA20746F8F0092A448 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		F7EFEDD02076CAAE0034716C /* Models */ = {

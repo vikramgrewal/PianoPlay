@@ -12,6 +12,7 @@ import AVFoundation
 class KeyPlayer {
 
    var keyPlayers : [AVAudioPlayer]?
+   
    let noteResourceNames = ["cNote.wav", "dNote.wav", "eNote.wav", "fNote.wav",
                             "gNote.wav", "aNote.wav", "bNote.wav", "cNote.wav",
                             "cSharpNote.wav", "eFlatNote.wav", "fSharpNote.wav",
