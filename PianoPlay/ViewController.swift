@@ -11,7 +11,6 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-   @IBOutlet weak var stackView: UIStackView!
    @IBOutlet weak var keyC: UIButton!
    @IBOutlet weak var keyD: UIButton!
    @IBOutlet weak var keyE: UIButton!
@@ -20,12 +19,12 @@ class ViewController: UIViewController {
    @IBOutlet weak var keyA: UIButton!
    @IBOutlet weak var keyB: UIButton!
    @IBOutlet weak var keyOctaveC: UIButton!
-   @IBOutlet weak var btn1: UIButton!
-   @IBOutlet weak var btn2: UIButton!
-   @IBOutlet weak var btn3: UIButton!
-   @IBOutlet weak var btn4: UIButton!
-   @IBOutlet weak var btn5: UIButton!
-   @IBOutlet weak var btn6: UIButton!
+   @IBOutlet weak var cSharpNote: UIButton!
+   @IBOutlet weak var eFlatNote: UIButton!
+   @IBOutlet weak var fSharpNote: UIButton!
+   @IBOutlet weak var gSharpNote: UIButton!
+   @IBOutlet weak var bFlatNote: UIButton!
+   @IBOutlet weak var octaveCSharpNote: UIButton!
 
    var keyPlayer : KeyPlayer!
 
@@ -92,12 +91,12 @@ class ViewController: UIViewController {
       addGestureRecognizer(key: keyA)
       addGestureRecognizer(key: keyB)
       addGestureRecognizer(key: keyOctaveC)
-      addGestureRecognizer(key: btn1)
-      addGestureRecognizer(key: btn2)
-      addGestureRecognizer(key: btn3)
-      addGestureRecognizer(key: btn4)
-      addGestureRecognizer(key: btn5)
-      addGestureRecognizer(key: btn6)
+      addGestureRecognizer(key: cSharpNote)
+      addGestureRecognizer(key: eFlatNote)
+      addGestureRecognizer(key: fSharpNote)
+      addGestureRecognizer(key: gSharpNote)
+      addGestureRecognizer(key: bFlatNote)
+      addGestureRecognizer(key: octaveCSharpNote)
    }
 
 }

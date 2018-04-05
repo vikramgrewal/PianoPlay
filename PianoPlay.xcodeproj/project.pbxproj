@@ -10,23 +10,12 @@
 		F77358B920746F8F0092A448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77358B820746F8F0092A448 /* AppDelegate.swift */; };
 		F77358BB20746F8F0092A448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77358BA20746F8F0092A448 /* ViewController.swift */; };
 		F77358BE20746F8F0092A448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77358BC20746F8F0092A448 /* Main.storyboard */; };
-		F77358C020746F8F0092A448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77358BF20746F8F0092A448 /* Assets.xcassets */; };
 		F77358C320746F8F0092A448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77358C120746F8F0092A448 /* LaunchScreen.storyboard */; };
 		F77358CE20746F8F0092A448 /* PianoPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77358CD20746F8F0092A448 /* PianoPlayTests.swift */; };
 		F77358D920746F8F0092A448 /* PianoPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77358D820746F8F0092A448 /* PianoPlayUITests.swift */; };
 		F7A24B192075BA4C00F69226 /* KeyPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A24B182075BA4C00F69226 /* KeyPlayer.swift */; };
-		F7A24B262075C2D100F69226 /* eFlatNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B1C2075C2D000F69226 /* eFlatNote.wav */; };
-		F7A24B272075C2D100F69226 /* fSharpNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B1D2075C2D000F69226 /* fSharpNote.wav */; };
-		F7A24B282075C2D100F69226 /* bNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B1E2075C2D000F69226 /* bNote.wav */; };
-		F7A24B292075C2D100F69226 /* cNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B1F2075C2D000F69226 /* cNote.wav */; };
-		F7A24B2A2075C2D100F69226 /* cSharpNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B202075C2D000F69226 /* cSharpNote.wav */; };
-		F7A24B2B2075C2D100F69226 /* bFlatNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B212075C2D000F69226 /* bFlatNote.wav */; };
-		F7A24B2C2075C2D100F69226 /* eNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B222075C2D000F69226 /* eNote.wav */; };
-		F7A24B2E2075C2D100F69226 /* fNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B242075C2D100F69226 /* fNote.wav */; };
-		F7A24B2F2075C2D100F69226 /* dNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B252075C2D100F69226 /* dNote.wav */; };
-		F7A24B312075C30B00F69226 /* aNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B302075C30B00F69226 /* aNote.wav */; };
-		F7A24B342075C8BF00F69226 /* gSharpNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B322075C8BF00F69226 /* gSharpNote.wav */; };
-		F7A24B352075C8BF00F69226 /* gNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B332075C8BF00F69226 /* gNote.wav */; };
+		F7EFED822076C6DB0034716C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EFED812076C6DB0034716C /* Assets.xcassets */; };
+		F7EFEDCE2076CA160034716C /* MusicFiles in Resources */ = {isa = PBXBuildFile; fileRef = F7EFEDCD2076CA150034716C /* MusicFiles */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +40,6 @@
 		F77358B820746F8F0092A448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F77358BA20746F8F0092A448 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F77358BD20746F8F0092A448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F77358BF20746F8F0092A448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77358C220746F8F0092A448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F77358C420746F8F0092A448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F77358C920746F8F0092A448 /* PianoPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,18 +49,8 @@
 		F77358D820746F8F0092A448 /* PianoPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoPlayUITests.swift; sourceTree = "<group>"; };
 		F77358DA20746F8F0092A448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7A24B182075BA4C00F69226 /* KeyPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPlayer.swift; sourceTree = "<group>"; };
-		F7A24B1C2075C2D000F69226 /* eFlatNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = eFlatNote.wav; path = ../../../../Downloads/eFlatNote.wav; sourceTree = "<group>"; };
-		F7A24B1D2075C2D000F69226 /* fSharpNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fSharpNote.wav; path = ../../../../Downloads/fSharpNote.wav; sourceTree = "<group>"; };
-		F7A24B1E2075C2D000F69226 /* bNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bNote.wav; path = ../../../../Downloads/bNote.wav; sourceTree = "<group>"; };
-		F7A24B1F2075C2D000F69226 /* cNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cNote.wav; path = ../../../../Downloads/cNote.wav; sourceTree = "<group>"; };
-		F7A24B202075C2D000F69226 /* cSharpNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cSharpNote.wav; path = ../../../../Downloads/cSharpNote.wav; sourceTree = "<group>"; };
-		F7A24B212075C2D000F69226 /* bFlatNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bFlatNote.wav; path = ../../../../Downloads/bFlatNote.wav; sourceTree = "<group>"; };
-		F7A24B222075C2D000F69226 /* eNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = eNote.wav; path = ../../../../Downloads/eNote.wav; sourceTree = "<group>"; };
-		F7A24B242075C2D100F69226 /* fNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fNote.wav; path = ../../../../Downloads/fNote.wav; sourceTree = "<group>"; };
-		F7A24B252075C2D100F69226 /* dNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dNote.wav; path = ../../../../Downloads/dNote.wav; sourceTree = "<group>"; };
-		F7A24B302075C30B00F69226 /* aNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = aNote.wav; path = ../../../../Downloads/aNote.wav; sourceTree = "<group>"; };
-		F7A24B322075C8BF00F69226 /* gSharpNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gSharpNote.wav; path = ../../../../Downloads/gSharpNote.wav; sourceTree = "<group>"; };
-		F7A24B332075C8BF00F69226 /* gNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gNote.wav; path = ../../../../Downloads/gNote.wav; sourceTree = "<group>"; };
+		F7EFED812076C6DB0034716C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7EFEDCD2076CA150034716C /* MusicFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MusicFiles; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,25 +101,14 @@
 		F77358B720746F8F0092A448 /* PianoPlay */ = {
 			isa = PBXGroup;
 			children = (
-				F7A24B302075C30B00F69226 /* aNote.wav */,
-				F7A24B212075C2D000F69226 /* bFlatNote.wav */,
-				F7A24B1E2075C2D000F69226 /* bNote.wav */,
-				F7A24B1F2075C2D000F69226 /* cNote.wav */,
-				F7A24B202075C2D000F69226 /* cSharpNote.wav */,
-				F7A24B252075C2D100F69226 /* dNote.wav */,
-				F7A24B1C2075C2D000F69226 /* eFlatNote.wav */,
-				F7A24B332075C8BF00F69226 /* gNote.wav */,
-				F7A24B322075C8BF00F69226 /* gSharpNote.wav */,
-				F7A24B222075C2D000F69226 /* eNote.wav */,
-				F7A24B242075C2D100F69226 /* fNote.wav */,
-				F7A24B1D2075C2D000F69226 /* fSharpNote.wav */,
+				F7EFEDD02076CAAE0034716C /* Models */,
+				F7EFEDCD2076CA150034716C /* MusicFiles */,
+				F7EFED812076C6DB0034716C /* Assets.xcassets */,
 				F77358B820746F8F0092A448 /* AppDelegate.swift */,
 				F77358BA20746F8F0092A448 /* ViewController.swift */,
 				F77358BC20746F8F0092A448 /* Main.storyboard */,
-				F77358BF20746F8F0092A448 /* Assets.xcassets */,
 				F77358C120746F8F0092A448 /* LaunchScreen.storyboard */,
 				F77358C420746F8F0092A448 /* Info.plist */,
-				F7A24B182075BA4C00F69226 /* KeyPlayer.swift */,
 			);
 			path = PianoPlay;
 			sourceTree = "<group>";
@@ -162,6 +129,14 @@
 				F77358DA20746F8F0092A448 /* Info.plist */,
 			);
 			path = PianoPlayUITests;
+			sourceTree = "<group>";
+		};
+		F7EFEDD02076CAAE0034716C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7A24B182075BA4C00F69226 /* KeyPlayer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,20 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A24B2F2075C2D100F69226 /* dNote.wav in Resources */,
-				F7A24B2A2075C2D100F69226 /* cSharpNote.wav in Resources */,
-				F7A24B282075C2D100F69226 /* bNote.wav in Resources */,
-				F7A24B262075C2D100F69226 /* eFlatNote.wav in Resources */,
-				F7A24B272075C2D100F69226 /* fSharpNote.wav in Resources */,
+				F7EFED822076C6DB0034716C /* Assets.xcassets in Resources */,
 				F77358C320746F8F0092A448 /* LaunchScreen.storyboard in Resources */,
-				F7A24B2E2075C2D100F69226 /* fNote.wav in Resources */,
-				F7A24B352075C8BF00F69226 /* gNote.wav in Resources */,
-				F7A24B342075C8BF00F69226 /* gSharpNote.wav in Resources */,
-				F7A24B312075C30B00F69226 /* aNote.wav in Resources */,
-				F7A24B2B2075C2D100F69226 /* bFlatNote.wav in Resources */,
-				F77358C020746F8F0092A448 /* Assets.xcassets in Resources */,
-				F7A24B292075C2D100F69226 /* cNote.wav in Resources */,
-				F7A24B2C2075C2D100F69226 /* eNote.wav in Resources */,
+				F7EFEDCE2076CA160034716C /* MusicFiles in Resources */,
 				F77358BE20746F8F0092A448 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

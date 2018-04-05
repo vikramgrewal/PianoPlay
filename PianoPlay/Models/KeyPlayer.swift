@@ -25,10 +25,10 @@ class KeyPlayer {
    func createAudioPlayers()  {
       for index in 0...13   {
          do {
-            let audioFile = Bundle.main.url(forResource: noteResourceNames[index], withExtension: nil)
-            let ap1 = try AVAudioPlayer(contentsOf: audioFile!)
-            ap1.setVolume(1, fadeDuration: 0.5)
-            keyPlayers?.append(ap1)
+            let audioFile = Bundle.main.url(forResource: noteResourceNames[index], withExtension: nil, subdirectory: "MusicFiles")
+            let audioPlayer = try AVAudioPlayer(contentsOf: audioFile!)
+            audioPlayer.setVolume(1, fadeDuration: 0.5)
+            keyPlayers?.append(audioPlayer)
          }  catch {
             print(error.localizedDescription)
          }
