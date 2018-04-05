@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F77358B920746F8F0092A448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77358B820746F8F0092A448 /* AppDelegate.swift */; };
+		F77358BB20746F8F0092A448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77358BA20746F8F0092A448 /* ViewController.swift */; };
+		F77358BE20746F8F0092A448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77358BC20746F8F0092A448 /* Main.storyboard */; };
+		F77358C020746F8F0092A448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77358BF20746F8F0092A448 /* Assets.xcassets */; };
+		F77358C320746F8F0092A448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77358C120746F8F0092A448 /* LaunchScreen.storyboard */; };
+		F77358CE20746F8F0092A448 /* PianoPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77358CD20746F8F0092A448 /* PianoPlayTests.swift */; };
+		F77358D920746F8F0092A448 /* PianoPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77358D820746F8F0092A448 /* PianoPlayUITests.swift */; };
+		F7A24B192075BA4C00F69226 /* KeyPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A24B182075BA4C00F69226 /* KeyPlayer.swift */; };
+		F7A24B262075C2D100F69226 /* eFlatNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B1C2075C2D000F69226 /* eFlatNote.wav */; };
+		F7A24B272075C2D100F69226 /* fSharpNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B1D2075C2D000F69226 /* fSharpNote.wav */; };
+		F7A24B282075C2D100F69226 /* bNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B1E2075C2D000F69226 /* bNote.wav */; };
+		F7A24B292075C2D100F69226 /* cNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B1F2075C2D000F69226 /* cNote.wav */; };
+		F7A24B2A2075C2D100F69226 /* cSharpNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B202075C2D000F69226 /* cSharpNote.wav */; };
+		F7A24B2B2075C2D100F69226 /* bFlatNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B212075C2D000F69226 /* bFlatNote.wav */; };
+		F7A24B2C2075C2D100F69226 /* eNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B222075C2D000F69226 /* eNote.wav */; };
+		F7A24B2E2075C2D100F69226 /* fNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B242075C2D100F69226 /* fNote.wav */; };
+		F7A24B2F2075C2D100F69226 /* dNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B252075C2D100F69226 /* dNote.wav */; };
+		F7A24B312075C30B00F69226 /* aNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B302075C30B00F69226 /* aNote.wav */; };
+		F7A24B342075C8BF00F69226 /* gSharpNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B322075C8BF00F69226 /* gSharpNote.wav */; };
+		F7A24B352075C8BF00F69226 /* gNote.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A24B332075C8BF00F69226 /* gNote.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F77358CA20746F8F0092A448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F77358AD20746F8F0092A448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77358B420746F8F0092A448;
+			remoteInfo = PianoPlay;
+		};
+		F77358D520746F8F0092A448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F77358AD20746F8F0092A448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77358B420746F8F0092A448;
+			remoteInfo = PianoPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F77358B520746F8F0092A448 /* PianoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77358B820746F8F0092A448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F77358BA20746F8F0092A448 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F77358BD20746F8F0092A448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F77358BF20746F8F0092A448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77358C220746F8F0092A448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F77358C420746F8F0092A448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77358C920746F8F0092A448 /* PianoPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77358CD20746F8F0092A448 /* PianoPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoPlayTests.swift; sourceTree = "<group>"; };
+		F77358CF20746F8F0092A448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77358D420746F8F0092A448 /* PianoPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77358D820746F8F0092A448 /* PianoPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoPlayUITests.swift; sourceTree = "<group>"; };
+		F77358DA20746F8F0092A448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A24B182075BA4C00F69226 /* KeyPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPlayer.swift; sourceTree = "<group>"; };
+		F7A24B1C2075C2D000F69226 /* eFlatNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = eFlatNote.wav; path = ../../../../Downloads/eFlatNote.wav; sourceTree = "<group>"; };
+		F7A24B1D2075C2D000F69226 /* fSharpNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fSharpNote.wav; path = ../../../../Downloads/fSharpNote.wav; sourceTree = "<group>"; };
+		F7A24B1E2075C2D000F69226 /* bNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bNote.wav; path = ../../../../Downloads/bNote.wav; sourceTree = "<group>"; };
+		F7A24B1F2075C2D000F69226 /* cNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cNote.wav; path = ../../../../Downloads/cNote.wav; sourceTree = "<group>"; };
+		F7A24B202075C2D000F69226 /* cSharpNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cSharpNote.wav; path = ../../../../Downloads/cSharpNote.wav; sourceTree = "<group>"; };
+		F7A24B212075C2D000F69226 /* bFlatNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bFlatNote.wav; path = ../../../../Downloads/bFlatNote.wav; sourceTree = "<group>"; };
+		F7A24B222075C2D000F69226 /* eNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = eNote.wav; path = ../../../../Downloads/eNote.wav; sourceTree = "<group>"; };
+		F7A24B242075C2D100F69226 /* fNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fNote.wav; path = ../../../../Downloads/fNote.wav; sourceTree = "<group>"; };
+		F7A24B252075C2D100F69226 /* dNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dNote.wav; path = ../../../../Downloads/dNote.wav; sourceTree = "<group>"; };
+		F7A24B302075C30B00F69226 /* aNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = aNote.wav; path = ../../../../Downloads/aNote.wav; sourceTree = "<group>"; };
+		F7A24B322075C8BF00F69226 /* gSharpNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gSharpNote.wav; path = ../../../../Downloads/gSharpNote.wav; sourceTree = "<group>"; };
+		F7A24B332075C8BF00F69226 /* gNote.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gNote.wav; path = ../../../../Downloads/gNote.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77358B220746F8F0092A448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77358C620746F8F0092A448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77358D120746F8F0092A448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F77358AC20746F8F0092A448 = {
+			isa = PBXGroup;
+			children = (
+				F77358B720746F8F0092A448 /* PianoPlay */,
+				F77358CC20746F8F0092A448 /* PianoPlayTests */,
+				F77358D720746F8F0092A448 /* PianoPlayUITests */,
+				F77358B620746F8F0092A448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F77358B620746F8F0092A448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77358B520746F8F0092A448 /* PianoPlay.app */,
+				F77358C920746F8F0092A448 /* PianoPlayTests.xctest */,
+				F77358D420746F8F0092A448 /* PianoPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77358B720746F8F0092A448 /* PianoPlay */ = {
+			isa = PBXGroup;
+			children = (
+				F7A24B302075C30B00F69226 /* aNote.wav */,
+				F7A24B212075C2D000F69226 /* bFlatNote.wav */,
+				F7A24B1E2075C2D000F69226 /* bNote.wav */,
+				F7A24B1F2075C2D000F69226 /* cNote.wav */,
+				F7A24B202075C2D000F69226 /* cSharpNote.wav */,
+				F7A24B252075C2D100F69226 /* dNote.wav */,
+				F7A24B1C2075C2D000F69226 /* eFlatNote.wav */,
+				F7A24B332075C8BF00F69226 /* gNote.wav */,
+				F7A24B322075C8BF00F69226 /* gSharpNote.wav */,
+				F7A24B222075C2D000F69226 /* eNote.wav */,
+				F7A24B242075C2D100F69226 /* fNote.wav */,
+				F7A24B1D2075C2D000F69226 /* fSharpNote.wav */,
+				F77358B820746F8F0092A448 /* AppDelegate.swift */,
+				F77358BA20746F8F0092A448 /* ViewController.swift */,
+				F77358BC20746F8F0092A448 /* Main.storyboard */,
+				F77358BF20746F8F0092A448 /* Assets.xcassets */,
+				F77358C120746F8F0092A448 /* LaunchScreen.storyboard */,
+				F77358C420746F8F0092A448 /* Info.plist */,
+				F7A24B182075BA4C00F69226 /* KeyPlayer.swift */,
+			);
+			path = PianoPlay;
+			sourceTree = "<group>";
+		};
+		F77358CC20746F8F0092A448 /* PianoPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F77358CD20746F8F0092A448 /* PianoPlayTests.swift */,
+				F77358CF20746F8F0092A448 /* Info.plist */,
+			);
+			path = PianoPlayTests;
+			sourceTree = "<group>";
+		};
+		F77358D720746F8F0092A448 /* PianoPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F77358D820746F8F0092A448 /* PianoPlayUITests.swift */,
+				F77358DA20746F8F0092A448 /* Info.plist */,
+			);
+			path = PianoPlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77358B420746F8F0092A448 /* PianoPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77358DD20746F8F0092A448 /* Build configuration list for PBXNativeTarget "PianoPlay" */;
+			buildPhases = (
+				F77358B120746F8F0092A448 /* Sources */,
+				F77358B220746F8F0092A448 /* Frameworks */,
+				F77358B320746F8F0092A448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PianoPlay;
+			productName = PianoPlay;
+			productReference = F77358B520746F8F0092A448 /* PianoPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F77358C820746F8F0092A448 /* PianoPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77358E020746F8F0092A448 /* Build configuration list for PBXNativeTarget "PianoPlayTests" */;
+			buildPhases = (
+				F77358C520746F8F0092A448 /* Sources */,
+				F77358C620746F8F0092A448 /* Frameworks */,
+				F77358C720746F8F0092A448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77358CB20746F8F0092A448 /* PBXTargetDependency */,
+			);
+			name = PianoPlayTests;
+			productName = PianoPlayTests;
+			productReference = F77358C920746F8F0092A448 /* PianoPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F77358D320746F8F0092A448 /* PianoPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77358E320746F8F0092A448 /* Build configuration list for PBXNativeTarget "PianoPlayUITests" */;
+			buildPhases = (
+				F77358D020746F8F0092A448 /* Sources */,
+				F77358D120746F8F0092A448 /* Frameworks */,
+				F77358D220746F8F0092A448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77358D620746F8F0092A448 /* PBXTargetDependency */,
+			);
+			name = PianoPlayUITests;
+			productName = PianoPlayUITests;
+			productReference = F77358D420746F8F0092A448 /* PianoPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77358AD20746F8F0092A448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vikram Work/School";
+				TargetAttributes = {
+					F77358B420746F8F0092A448 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F77358C820746F8F0092A448 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F77358B420746F8F0092A448;
+					};
+					F77358D320746F8F0092A448 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F77358B420746F8F0092A448;
+					};
+				};
+			};
+			buildConfigurationList = F77358B020746F8F0092A448 /* Build configuration list for PBXProject "PianoPlay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77358AC20746F8F0092A448;
+			productRefGroup = F77358B620746F8F0092A448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77358B420746F8F0092A448 /* PianoPlay */,
+				F77358C820746F8F0092A448 /* PianoPlayTests */,
+				F77358D320746F8F0092A448 /* PianoPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77358B320746F8F0092A448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A24B2F2075C2D100F69226 /* dNote.wav in Resources */,
+				F7A24B2A2075C2D100F69226 /* cSharpNote.wav in Resources */,
+				F7A24B282075C2D100F69226 /* bNote.wav in Resources */,
+				F7A24B262075C2D100F69226 /* eFlatNote.wav in Resources */,
+				F7A24B272075C2D100F69226 /* fSharpNote.wav in Resources */,
+				F77358C320746F8F0092A448 /* LaunchScreen.storyboard in Resources */,
+				F7A24B2E2075C2D100F69226 /* fNote.wav in Resources */,
+				F7A24B352075C8BF00F69226 /* gNote.wav in Resources */,
+				F7A24B342075C8BF00F69226 /* gSharpNote.wav in Resources */,
+				F7A24B312075C30B00F69226 /* aNote.wav in Resources */,
+				F7A24B2B2075C2D100F69226 /* bFlatNote.wav in Resources */,
+				F77358C020746F8F0092A448 /* Assets.xcassets in Resources */,
+				F7A24B292075C2D100F69226 /* cNote.wav in Resources */,
+				F7A24B2C2075C2D100F69226 /* eNote.wav in Resources */,
+				F77358BE20746F8F0092A448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77358C720746F8F0092A448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77358D220746F8F0092A448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77358B120746F8F0092A448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77358BB20746F8F0092A448 /* ViewController.swift in Sources */,
+				F77358B920746F8F0092A448 /* AppDelegate.swift in Sources */,
+				F7A24B192075BA4C00F69226 /* KeyPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77358C520746F8F0092A448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77358CE20746F8F0092A448 /* PianoPlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77358D020746F8F0092A448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77358D920746F8F0092A448 /* PianoPlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F77358CB20746F8F0092A448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77358B420746F8F0092A448 /* PianoPlay */;
+			targetProxy = F77358CA20746F8F0092A448 /* PBXContainerItemProxy */;
+		};
+		F77358D620746F8F0092A448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77358B420746F8F0092A448 /* PianoPlay */;
+			targetProxy = F77358D520746F8F0092A448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F77358BC20746F8F0092A448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77358BD20746F8F0092A448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F77358C120746F8F0092A448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77358C220746F8F0092A448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77358DB20746F8F0092A448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F77358DC20746F8F0092A448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77358DE20746F8F0092A448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = PianoPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.PianoPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F77358DF20746F8F0092A448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = PianoPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.PianoPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F77358E120746F8F0092A448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = PianoPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.PianoPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoPlay.app/PianoPlay";
+			};
+			name = Debug;
+		};
+		F77358E220746F8F0092A448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = PianoPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.PianoPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoPlay.app/PianoPlay";
+			};
+			name = Release;
+		};
+		F77358E420746F8F0092A448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = PianoPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.PianoPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PianoPlay;
+			};
+			name = Debug;
+		};
+		F77358E520746F8F0092A448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = PianoPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.PianoPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PianoPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77358B020746F8F0092A448 /* Build configuration list for PBXProject "PianoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77358DB20746F8F0092A448 /* Debug */,
+				F77358DC20746F8F0092A448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77358DD20746F8F0092A448 /* Build configuration list for PBXNativeTarget "PianoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77358DE20746F8F0092A448 /* Debug */,
+				F77358DF20746F8F0092A448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77358E020746F8F0092A448 /* Build configuration list for PBXNativeTarget "PianoPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77358E120746F8F0092A448 /* Debug */,
+				F77358E220746F8F0092A448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77358E320746F8F0092A448 /* Build configuration list for PBXNativeTarget "PianoPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77358E420746F8F0092A448 /* Debug */,
+				F77358E520746F8F0092A448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F77358AD20746F8F0092A448 /* Project object */;
+}
