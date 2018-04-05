@@ -12,9 +12,20 @@ import AVFoundation
 class ViewController: UIViewController {
 
    @IBOutlet weak var stackView: UIStackView!
-   @IBOutlet weak var keyC: UIButton!, keyD: UIButton!, keyE: UIButton!
-   @IBOutlet weak var keyF: UIButton!, keyG: UIButton!, keyA: UIButton!
-   @IBOutlet weak var keyB: UIButton!, keyOctaveC: UIButton!
+   @IBOutlet weak var keyC: UIButton!
+   @IBOutlet weak var keyD: UIButton!
+   @IBOutlet weak var keyE: UIButton!
+   @IBOutlet weak var keyF: UIButton!
+   @IBOutlet weak var keyG: UIButton!
+   @IBOutlet weak var keyA: UIButton!
+   @IBOutlet weak var keyB: UIButton!
+   @IBOutlet weak var keyOctaveC: UIButton!
+   @IBOutlet weak var btn1: UIButton!
+   @IBOutlet weak var btn2: UIButton!
+   @IBOutlet weak var btn3: UIButton!
+   @IBOutlet weak var btn4: UIButton!
+   @IBOutlet weak var btn5: UIButton!
+   @IBOutlet weak var btn6: UIButton!
 
    var keyPlayer : KeyPlayer!
 
@@ -24,13 +35,6 @@ class ViewController: UIViewController {
 
       keyPlayer = KeyPlayer()
 
-      setUpKey(key: keyC, tag: 8)
-      setUpKey(key: keyD, tag: 9)
-      setUpKey(key: keyF, tag: 10)
-      setUpKey(key: keyG, tag: 11)
-      setUpKey(key: keyA, tag: 12)
-      setUpKey(key: keyOctaveC, tag: 13)
-
       addAllGestureRecognizers()
    }
 
@@ -39,24 +43,14 @@ class ViewController: UIViewController {
       // Dispose of any resources that can be recreated.
    }
 
-   func setUpKey(key : UIButton, tag: Int)  {
-      let buttonHeight = UIScreen.main.bounds.height / 2
-      let buttonWidth = key.bounds.width / 2
-      let buttonXPos = (20 / 2 ) + (key.frame.origin.x + key.bounds.width) - (buttonWidth / 2)
-      let buttonFrame = CGRect(x: buttonXPos, y: 0, width: buttonWidth, height: buttonHeight)
-      let button = UIButton(frame: buttonFrame)
-      button.backgroundColor = UIColor.black
-      button.isUserInteractionEnabled = true
-      button.tag = tag
-      addGestureRecognizer(key: button)
-      view.addSubview(button)
-   }
 
    func addGestureRecognizer(key: UIButton)  {
       let tap = UILongPressGestureRecognizer(target: self, action: #selector(keyTapped(_:)))
       tap.minimumPressDuration = 0
       key.isUserInteractionEnabled = true
       key.addGestureRecognizer(tap)
+      key.layer.borderColor = UIColor.black.cgColor
+      key.layer.borderWidth = 1
    }
 
    @objc func keyTapped(_ sender: UITapGestureRecognizer)  {
@@ -65,8 +59,8 @@ class ViewController: UIViewController {
          let keyToPress = pressedView.tag
          if sender.state == UIGestureRecognizerState.began   {
             if keyToPress >= 0 && keyToPress <= 7 {
-               pressedView.backgroundColor = UIColor(red:0.96, green:0.96,
-                                                     blue:0.96, alpha:1.0)
+               pressedView.backgroundColor = UIColor(red:0.87, green:0.87,
+                                                     blue:0.87, alpha:1.0)
             }  else if keyToPress >= 8 && keyToPress <= 13 {
                pressedView.backgroundColor = UIColor(red:0.21, green:0.21,
                                                      blue:0.21, alpha:1.0)
@@ -82,7 +76,7 @@ class ViewController: UIViewController {
             if keyToPress >= 0 && keyToPress <= 7 {
                pressedView.backgroundColor = UIColor.white
             }  else if keyToPress >= 8 && keyToPress <= 13 {
-
+               pressedView.backgroundColor = UIColor.black
             }
          }
 
@@ -98,6 +92,12 @@ class ViewController: UIViewController {
       addGestureRecognizer(key: keyA)
       addGestureRecognizer(key: keyB)
       addGestureRecognizer(key: keyOctaveC)
+      addGestureRecognizer(key: btn1)
+      addGestureRecognizer(key: btn2)
+      addGestureRecognizer(key: btn3)
+      addGestureRecognizer(key: btn4)
+      addGestureRecognizer(key: btn5)
+      addGestureRecognizer(key: btn6)
    }
 
 }
